@@ -17,10 +17,8 @@ async def on_ready():
 async def hello(ctx):
     await ctx.send("hi")
 
-@bot.command()    
-async def bye(ctx):
-    await ctx.send("\\U0001f642")
 
+#esto es un nuevo cambio
 @bot.command()    
 async def password(ctx):
     await ctx.send(gen_pass(10))      
