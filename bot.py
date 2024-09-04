@@ -14,9 +14,9 @@ async def on_ready():
     print(f'Hemos iniciado sesión como {bot.user}')
 
 
-@bot.command()    
-async def bye(ctx):
-    await ctx.send("\\U0001f642")
+#ESto es un cambio 
+
+
 
 @bot.command()    
 async def password(ctx):
