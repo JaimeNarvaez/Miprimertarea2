@@ -13,11 +13,6 @@ bot = commands.Bot(command_prefix="$", intents=intents)
 async def on_ready():
     print(f'Hemos iniciado sesión como {bot.user}')
 
-
-#ESto es un cambio 
-
-
-
 @bot.command()    
 async def password(ctx):
     await ctx.send(gen_pass(10))      
