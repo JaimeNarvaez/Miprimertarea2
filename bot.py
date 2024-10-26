@@ -18,3 +18,5 @@ async def password(ctx):
     await ctx.send(gen_pass(10))      
 
 bot.run("")
+
+#Esto es un cambio en mi archivo
