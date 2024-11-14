@@ -19,4 +19,4 @@ async def password(ctx):
 
 bot.run("")
 
-#Esto es un cambio en mi archivo
+esto es un cambio hecho desde mi nuevo codigo 
