@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from bot_logic import gen_pass
 
-# La variable intents almacena los privilegios del bot
+
 intents = discord.Intents.default()
 # Activar el privilegio de lectura de mensajes
 intents.message_content = True
@@ -18,5 +18,6 @@ async def password(ctx):
     await ctx.send(gen_pass(10))      
 
 bot.run("")
+#flsajflasjolfjasofi
+#Hola esto es un cambio
 
-esto es un cambio hecho desde mi nuevo codigo 
